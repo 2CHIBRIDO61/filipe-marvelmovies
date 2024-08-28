@@ -1,0 +1,64 @@
+Filipe Pinheiro Pereira 26/08/2024
+
+
+
+body {
+    color:white;
+    background: black;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 1px rgb(189, 12, 12);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(189, 12, 12);
+}
+
+
+.chamada{
+    background: black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+img{
+    height: 200px;
+}
+
+.vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.vídeos img{
+    opacity: 0.4;
+}
+
+.vídeos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
